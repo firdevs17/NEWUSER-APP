@@ -3,4 +3,4 @@
 ## I used Python-Flask in this project.
 
 ### Firstly i created the html interface
-76625335/135091899-552bd8ae-5fc2-4c38-b7a3-881a33b01a6e.JPG)
+!(https://user-images.githubusercontent.com/76625335/135092378-8aeca817-038b-4f9f-9d27-b3ff295d76b4.JPG)

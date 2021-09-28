@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewsport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New User</title>
+</head>
+
+    <h1 class="u-text u-text-default u-text-palette-4-base u-text-1">New User</h1>
+
+<body>
+    {% if message %}
+    <p class="message">{{ message | safe}}</p>
+    {% endif %}
+    <form action="/submit" method="POST">
+        <div class ="form-group">
+            <h3>Username:</h3>
+            <input type="text" name="username"/>
+            <h3>Display Name:</h3>
+            <input type="text" name="displayname"/>
+            <h3>Phone:</h3>
+            <input type="text" name="phone"/>
+            <h3>Email:</h3>
+            <input type="text" name="email"/>
+        </div>
+
+        <div class="form-group">
+            <h3>User Roles:</h3>
+            <select name="userroles">
+              <option value="1">Admin User</option>
+              <option value="2">Test User</option>
+            </select>
+        </div>
+          
+        <div class="form-group">
+            <h3>Enabled</h3>
+            <input type="checkbox" name="enabled">
+        </div>
+        <input type="submit" value="Submit" class="btn"></body>
+    </form>
+
+    
+
+
+
+
+
